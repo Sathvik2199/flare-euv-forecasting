@@ -4,6 +4,24 @@ This repository contains the implementation for **FlareEUV**, a deep learning fr
 
 This work was developed for the **ICMLA 2026 conference submission**.
 
+
+-- 
+
+## Solar Observations
+
+### AIA EUV Channels
+
+![AIA Channels](figures/fig_aia_8channel_inferno_ieee_final.png)
+
+Atmospheric Imaging Assembly (AIA) observations across eight EUV and UV wavelengths used as input channels for the model.
+
+### HMI Magnetic Field Observations
+
+![HMI Channels](figures/fig_hmi_5channel_final_northup.png)
+
+Helioseismic and Magnetic Imager (HMI) observations showing magnetic field strength, inclination, azimuth, continuum intensity, and magnetogram.
+
+
 ---
 
 ## Overview
