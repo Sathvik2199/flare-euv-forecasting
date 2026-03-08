@@ -1,0 +1,43 @@
+
+DATASET PREPROCESSING COMPLETE
+======================================================================
+
+CONFIGURATION:
+  - Image Size: 256×256
+  - Total Channels: 13
+  - AIA Channels: 8 ['aia94', 'aia131', 'aia171', 'aia193', 'aia211', 'aia304', 'aia335', 'aia1600']
+  - HMI Channels: 5 ['hmiB_field', 'hmiB_incl', 'hmiB_azim', 'hmiIC', 'hmiM']
+
+PROCESSING RESULTS:
+  - Total flares in CSV: 33
+  - Successfully processed: 33
+  - Skipped: 0
+  - Success rate: 100.0%
+
+DATASET DIMENSIONS:
+  - X (inputs): (33, 13, 256, 256)
+  - Y (targets): (33, 3)
+
+INPUT STATISTICS:
+  - Min: 0.000000
+  - Max: 1.000000
+  - Mean: 0.616103
+  - Std: 0.346720
+
+TARGET STATISTICS:
+  - Min: 6.041051e-05 W/m²/nm
+  - Max: 1.214410e-04 W/m²/nm
+  - Mean: 8.827195e-05 W/m²/nm
+  - Std: 1.528853e-05 W/m²/nm
+
+SAVED FILES:
+  - preprocessed_data/X_aiahmi_256.npy
+  - preprocessed_data/Y_aiahmi_256.npy
+  - preprocessed_data/metadata_256.json
+  - preprocessed_data/successful_flares_256.csv
+  
+
+READY FOR TRAINING:
+  ✅ Use this dataset with the improved ResNet34 model
+  ✅ Expected training time: 2.8 - 5.5 minutes (with LOFO)
+  ✅ All data quality checks passed

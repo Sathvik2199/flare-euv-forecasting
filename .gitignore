@@ -1,0 +1,23 @@
+# Solar data
+*.fits
+*.npz
+*.npy
+
+# datasets
+*.csv
+
+# results / artifacts
+artifacts_*/
+results_*/
+figures/
+figures_ieee/
+
+# checkpoints
+.ipynb_checkpoints/
+
+# python
+__pycache__/
+*.pyc
+
+# environment
+.env

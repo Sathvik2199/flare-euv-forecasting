@@ -1,0 +1,72 @@
+{
+  "num_flares": 33,
+  "num_channels": 13,
+  "img_size": 256,
+  "aia_channels": [
+    "aia94",
+    "aia131",
+    "aia171",
+    "aia193",
+    "aia211",
+    "aia304",
+    "aia335",
+    "aia1600"
+  ],
+  "hmi_channels": [
+    "hmiB_field",
+    "hmiB_incl",
+    "hmiB_azim",
+    "hmiIC",
+    "hmiM"
+  ],
+  "successful_flares": [
+    "AR11158_M6.6",
+    "AR11158_X2.2",
+    "AR11261_M9.3",
+    "AR11429_X5.4",
+    "AR11429_M6.3",
+    "AR11520_X1.4",
+    "AR11719_M6.5",
+    "AR12036_M7.3",
+    "AR11944_X1.2",
+    "AR12017_X1.0",
+    "AR11166_X1.5",
+    "AR11261_M6.0",
+    "AR11261_M9.3b",
+    "AR11283_M5.3",
+    "AR11283_X2.1",
+    "AR11283_X1.8",
+    "AR11283_M6.7",
+    "AR11302_M7.4",
+    "AR11402_M8.7",
+    "AR11429_X1.3",
+    "AR11429_M8.4",
+    "AR11476_M5.7",
+    "AR11515_M5.6",
+    "AR11515_M5.3",
+    "AR11515_M6.1",
+    "AR11877_M9.3",
+    "AR11884_M6.3",
+    "AR11884_M5.0",
+    "AR11890_X1.1a",
+    "AR11890_X1.1b",
+    "AR11936_M6.4",
+    "AR11944_M7.2",
+    "AR12035_X1.3"
+  ],
+  "shape_X": [
+    33,
+    13,
+    256,
+    256
+  ],
+  "shape_Y": [
+    33,
+    3
+  ],
+  "preprocessing": {
+    "normalization": "1-99 percentile clipping + log1p stretch",
+    "hmi_flip": "vertical (south to north-up)",
+    "resize_method": "INTER_AREA"
+  }
+}
