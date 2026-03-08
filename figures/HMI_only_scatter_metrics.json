@@ -1,0 +1,14 @@
+{
+  "model": "HMI-Only Baseline",
+  "n_flares": 33,
+  "n_predictions": 99,
+  "raw_correlation": 0.8354989290237427,
+  "corrected_correlation": 0.8354990482330322,
+  "r2": 0.6500116586685181,
+  "mae": 7.315185484912945e-06,
+  "relative_error_pct": 8.385431289672852,
+  "linear_fit": {
+    "slope": 0.8212006688117981,
+    "intercept": 1.4247605577111244e-05
+  }
+}

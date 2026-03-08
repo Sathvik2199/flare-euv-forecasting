@@ -1,0 +1,14 @@
+{
+  "model": "AIA-Only Baseline",
+  "n_flares": 33,
+  "n_predictions": 99,
+  "raw_correlation": 0.8675823211669922,
+  "corrected_correlation": 0.8675823211669922,
+  "r2": 0.7459548711776733,
+  "mae": 5.377884463086957e-06,
+  "relative_error_pct": 5.894372463226318,
+  "linear_fit": {
+    "slope": 0.9183987379074097,
+    "intercept": 7.600705430377275e-06
+  }
+}

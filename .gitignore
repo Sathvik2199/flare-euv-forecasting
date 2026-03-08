@@ -9,8 +9,6 @@
 # results / artifacts
 artifacts_*/
 results_*/
-figures/
-figures_ieee/
 
 # checkpoints
 .ipynb_checkpoints/
